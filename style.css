@@ -1,0 +1,106 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  min-width: 31.8rem;
+}
+
+body {
+  min-width: 31.8rem;
+  font-size: 1.4rem;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Navigation Bar Section */
+nav {
+  height: 5rem;
+}
+
+.nav__second-sign {
+  font-size: 1.8rem;
+}
+
+.nav__second {
+  width: 27.6rem;
+}
+
+.nav__second-btn {
+  width: 12.5rem;
+  height: 2.6rem;
+  font-size: 1.8rem;
+}
+
+.nav__second-menu {
+  width: 6.8rem;
+  height: 100%;
+}
+
+.nav__second-menu i {
+  font-size: 2.8rem;
+  color: #FB9A94;
+}
+
+.nav__container-weather {
+  width: 17rem;
+  height: 3.5rem;
+}
+
+.nav__container-weather i {
+  font-size: 1.4rem;
+}
+
+.nav__container-weather a span i {
+  margin-left: 0.4rem;
+  font-size: 1.4rem;
+}
+
+.nav__container-weather a span {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 575px) {
+  .nav__container-weather i {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .nav__container-weather a span,
+  .nav__container-weather a span i {
+    display: none;
+  } 
+
+  .nav__container-weather {
+    width: 0.1rem;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .nav__second-sign,
+  .nav__second-btn {
+    font-size: 1.4rem;
+  }
+
+  .nav__second {
+    width: 20rem;
+  }
+
+  .nav__second-btn {
+    width: 7rem;
+  }
+
+  .nav__second-btn i {
+    display: none;
+  }
+
+  .nav__second-menu {
+    width: 5rem;
+  }
+}
