@@ -20,6 +20,7 @@ body {
 /* Navigation Bar Section */
 nav {
   height: 5rem;
+  background-color: #F72210;
 }
 
 .nav__second-sign {
@@ -28,6 +29,8 @@ nav {
 
 .nav__second {
   width: 27.6rem;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .nav__second-btn {
@@ -49,6 +52,8 @@ nav {
 .nav__container-weather {
   width: 17rem;
   height: 3.5rem;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .nav__container-weather i {
@@ -102,5 +107,75 @@ nav {
 
   .nav__second-menu {
     width: 5rem;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .nav__second-menu {
+    display: none;
+  }
+
+  .nav__second {
+    width: 20%;
+  }
+
+  nav {
+    height: 10.7rem;
+    overflow: hidden;
+  }
+
+  .nav__container-logo {
+    order: 2;
+    border: 1px solid white;
+    width: 75%;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .nav__container-weather {
+    width: 25%;
+    border: 1px solid blue;
+    align-items: flex-start;
+    padding-left: 3rem;
+    flex-direction: column;
+  }
+
+  .nav__container-weather a span {
+    font-size: 1.3rem;
+    margin-left: 0.4rem;
+  }
+
+  .nav__container-weather a span i {
+    font-size: 1.2rem;
+  }
+
+  .nav__container-date {
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  .nav__container-logo svg {
+    margin: 0 auto;
+    width: 61%;
+    height: 40%;
+    border: 1px solid blue;
+    padding: 0;
+  }
+
+  .nav__container-first {
+    width: 80%;
+    border: 1px solid white;
+  }
+  .nav__second {
+    align-items: flex-end;
+    padding-bottom: 2rem;
+    border: 1px solid blue;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .nav__container-date {
+    display: none;
   }
 }
