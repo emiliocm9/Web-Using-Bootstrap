@@ -236,5 +236,106 @@ nav {
 }
 
 /* -------------------------------------------------First Container Main------------------------------ */
+/* ------------------------------------Articles Section------------------------ */
+.text-red {
+  color: #f72210;
+}
 
+.decoration-none {
+  text-decoration: none;
+  cursor: pointer;
+}
 
+.decoration-none:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #f72210;
+}
+
+.first__column {
+  padding-left: 3rem;
+}
+
+.first__column-title {
+  font-size: 1.7rem;
+  color: #9a9a9a;
+  margin: 0.6rem 0 0 0;
+}
+
+.first__article1-image {
+  height: 23rem;
+  margin: 1rem auto 0;
+  background-image: url(https://d.newsweek.com/en/full/1581427/elizabeth-warren-joe-biden-fourth-democratic-debate.jpg?w=397&h=265&q=90&f=fe6aad2e8549d2fcb1f6a45b726460a8);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.article1__image-title {
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.8);
+  bottom: 0;
+  width: auto;
+  height: 3.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.article1__image-title a {
+  font-size: 1.7rem;
+}
+
+.article1__title {
+  font-size: 2.3rem;
+  margin-top: 1rem;
+}
+
+.article1__title a:hover {
+  text-decoration-color: #f72210;
+}
+
+.article1__text {
+  font-size: 1.5rem;
+}
+
+.first__article2-image {
+  height: 23rem;
+  margin: 1rem auto 0;
+  background-image: url(https://d.newsweek.com/en/full/1581766/hydroxychloroquine.jpg?w=397&h=265&q=90&f=bb03b3ee6e1445d404534f4dcd27a306);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.first__article3-image {
+  height: 23rem;
+  margin: 1rem auto 0;
+  background-image: url(https://d.newsweek.com/en/full/1581639/alexandria-ocasio-cortez.jpg?w=397&h=265&q=90&f=4ff751ea80da074648e09fd3128ada35);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.first__article4-image {
+  height: 23rem;
+  margin: 1rem auto 0;
+  background-image: url(https://d.newsweek.com/en/full/1581785/prime-minister-mette-frederiksen.jpg?w=397&h=265&q=90&f=12e07b5efd6bc157dc2bbd1cd5758609);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.first__article5-image {
+  height: 23rem;
+  margin: 1rem auto 0;
+  background-image: url(https://d.newsweek.com/en/full/1581778/boston-red-sox-fenway-park.jpg?w=397&h=265&q=90&f=c04977d2a7370e59f824d72a73394f48);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
