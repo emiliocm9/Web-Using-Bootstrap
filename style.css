@@ -69,6 +69,10 @@ nav {
   font-size: 1.5rem;
 }
 
+.nav__list {
+  display: flex;
+}
+
 @media screen and (max-width: 575px) {
   .nav__container-weather i {
     display: none;
@@ -126,7 +130,6 @@ nav {
 
   .nav__container-logo {
     order: 2;
-    border: 1px solid white;
     width: 75%;
     display: flex;
     overflow: hidden;
@@ -134,7 +137,6 @@ nav {
 
   .nav__container-weather {
     width: 25%;
-    border: 1px solid blue;
     align-items: flex-start;
     padding-left: 3rem;
     flex-direction: column;
@@ -158,24 +160,81 @@ nav {
     margin: 0 auto;
     width: 61%;
     height: 40%;
-    border: 1px solid blue;
     padding: 0;
   }
 
   .nav__container-first {
     width: 80%;
-    border: 1px solid white;
   }
+
   .nav__second {
     align-items: flex-end;
     padding-bottom: 2rem;
-    border: 1px solid blue;
     height: 100%;
+  }
+
+  .nav__list {
+    border-bottom: 2px solid #F4F5F6;
+    padding: 1.2rem 0;
+    position: relative;
+    top: -1.2rem;
+    background-color: white;
+    clip-path: polygon(93% 0, 94% 20%, 100% 20%, 100% 100%, 0 100%, 0 61%, 0 0);
+  }
+
+  .nav {
+    width: 87%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 2.5rem;
+  }
+
+  .nav-item a {
+    color: black;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    padding: 0 1rem 0 0;
+    border-right: 2px solid #F4F5F6;
+  }
+
+  .nav-item a:hover {
+    color: red;
+  }
+
+  .nav__search {
+    margin-right: 1rem;
+  }
+
+  .nav__search-label {
+    display: none;
+    border:none; 
+  }
+
+  .nav__search-input {
+    width: 42%;
+    border: 0;
+  }
+
+  .nav__search-input::placeholder {
+    color: black;
+    font-size: 1.9rem;
+  }
+
+  .nav__search i {
+    font-size: 2rem;
   }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 990px) {
   .nav__container-date {
     display: none;
   }
+
+  .nav__list {
+    display: none;
+  }
 }
+
+/* -------------------------------------------------First Container Main------------------------------ */
+
+
