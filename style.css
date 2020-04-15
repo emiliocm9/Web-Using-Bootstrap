@@ -339,3 +339,54 @@ nav {
   position: relative;
   cursor: pointer;
 }
+
+/*------------------------------- First grid sponsored articles section -----------------------------------------*/
+.first__sponsored-article {
+  width: 92%;
+  margin: 0 auto;
+}
+
+.first__sponsored-image {
+  height: 18rem;
+  margin: 1rem auto 0;
+  background-image: url("https://d.newsweek.com/en/full/1575945/cybersecurity-vantage-hp-sponsor.jpg?w=500&h=333&f=ac517642217c0d9cec695be60008ce2a");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.first__sponsored-tcontainer {
+  padding: 1rem;
+  border: 1px solid #e6e6e6;
+}
+
+.first__sponsored-title {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.first__sponsored-title a:hover {
+  text-decoration-color: #f72210;
+}
+
+.first__sponsored-image2 {
+  height: 18rem;
+  margin: 1rem auto 0;
+  background-image: url("https://d.newsweek.com/en/full/1572014/worlds-best-hospitals-2020.png?w=500&h=333&f=c871e2709e79f9ba030be976797f7aa2");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.first__sponsored-image3 {
+  height: 18rem;
+  margin: 1rem auto 0;
+  background-image: url("https://d.newsweek.com/en/full/1567280/all-points-north-lodge.jpg?w=500&h=333&f=317680b645c813e7054428bff80f9d38");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
