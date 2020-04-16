@@ -750,3 +750,13 @@ nav {
 .newsletter_text p {
   font-size: 1.6rem;
 }
+
+/*-------------------------------------------- Footer Section ------------------------------------------ */
+.footer__first-social {
+  width: 15rem;
+  font-size: 2.5rem;
+}
+
+.footer__first-image img {
+  width: 30rem;
+}
