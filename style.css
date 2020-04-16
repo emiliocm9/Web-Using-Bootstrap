@@ -552,7 +552,7 @@ nav {
 }
 
 .magazine__general-image {
-  height: 23rem;
+  height: 25rem;
   margin: 1rem auto 0;
   background-position: center;
   background-size: cover;
@@ -620,4 +620,95 @@ nav {
 
 .magazine__article2-text span {
   font-size: 2rem;
+}
+
+/*------------------------------------------------------ Editor Pick section- -----------------------------------*/
+.editors__article-image {
+  background-image: url(https://d.newsweek.com/en/full/1582202/coronavirus-test-new-rapid-faster-cdc.jpg?w=397&h=295&l=34&t=27&f=8965a3eb59b9cd6eac2ea4eb59b4a7bb);
+}
+
+.editors__article2-image {
+  background-image: url(https://d.newsweek.com/en/full/1582046/pills.jpg?w=397&h=295&f=6f2a7a7c5dcce2d9d7ec1960e1427ee4);
+}
+
+.editors__article3-image {
+  background-image: url(https://d.newsweek.com/en/full/1582094/nurse-mary-agyeiwaa-agyapong-died-coronavirus.jpg?w=397&h=295&f=50f65c8409211dc6528601889794c29e);
+}
+
+.editors__article4-image {
+  background-image: url(https://d.newsweek.com/en/full/1582162/customer-buys-alcohol.jpg?w=397&h=295&f=3f7146c0f2658e1857572069124eb00d);
+}
+
+.editors__article5-image {
+  background-image: url(https://d.newsweek.com/en/full/1582103/person-using-smartphone-stock.jpg?w=397&h=295&f=11ce9b7475ffbccf290a2841a625b2ae);
+}
+
+.editors__article6-image {
+  background-image: url(https://d.newsweek.com/en/full/1582059/covid-19-coronavirus-getty-chennai.jpg?w=397&h=295&f=db9d2d286a592bf41cd0d7857d04d4ea);
+}
+
+.editors__article7-image {
+  background-image: url(https://d.newsweek.com/en/full/1557019/prince-harry-meghan-markle-archie-sussex-royal.jpg?w=397&h=295&f=8da42b42202698318761189f3cafc2ec);
+}
+
+.editors__article8-image {
+  background-image: url(https://d.newsweek.com/en/full/1581427/elizabeth-warren-joe-biden-fourth-democratic-debate.jpg?w=397&h=295&f=b45cf2e813eb01c89cf459e237e58bb9);
+}
+
+/*-------------------------------------------- U.S Horizontal section------------------------------------------ */
+.horizontal__title a {
+  font-size: 2.2rem;
+}
+
+.horizontalus__article-image {
+  background-image: url(https://d.newsweek.com/en/full/1582251/dr-anthony-fauci-coronavirus-briefing-april-5.jpg?w=397&h=265&f=de393c53c6f2a86bb03e4bb7edb4a5d3);
+}
+
+.horizontalus__article2-image {
+  background-image: url(https://d.newsweek.com/en/full/1582182/us-health-virus-briefing.jpg?w=397&h=265&f=349f2d4419c984d6d14ece2cecf6af2c);
+}
+
+/*-------------------------------------------- World Horizontal section------------------------------------------ */
+.horizontalworld__article-image {
+  background-image: url(https://d.newsweek.com/en/full/1582276/china-xi-russia-putin-ceremony.jpg?w=397&h=265&f=a68b5d8953d4e8e104e4a0f4bc1e8cdd);
+}
+
+.horizontalworld__article2-image {
+  background-image: url(https://d.newsweek.com/en/full/1582294/dominic-raab-lockdown-3-weeks.png?w=397&h=265&f=c86e679138424fd54ae2595fdf505632);
+}
+
+/*-------------------------------------------- Business Horizontal section------------------------------------------ */
+.horizontalbusiness__article-image {
+  background-image: url(https://d.newsweek.com/en/full/1581456/world-economy-recession-prediction-imf.jpg?w=397&h=265&f=253cf2b07f0f94a41461f619dd0768d2);
+}
+
+.horizontalbusiness__article2-image {
+  background-image: url(https://d.newsweek.com/en/full/1581407/kenya-africa-debt-coronavirus-china-beijing.jpg?w=397&h=265&f=3f1a3279a8b38d73464dd52df5cea594);
+}
+
+/*-------------------------------------------- Tech Horizontal section------------------------------------------ */
+.horizontaltech__article-image {
+  background-image: url(https://d.newsweek.com/en/full/1582193/grey-wolf.jpg?w=397&h=265&f=b3c53e514e7b94bd66ba81a304fe204d);
+}
+
+.horizontaltech__article2-image {
+  background-image: url(https://d.newsweek.com/en/full/1582211/facebook-logo.jpg?w=397&h=265&f=7f4b9ad63e091ee60b97aa68739f3b7d);
+}
+
+/*-------------------------------------------- Culture Horizontal section------------------------------------------ */
+.horizontalculture__article-image {
+  background-image: url(https://d.newsweek.com/en/full/1582321/banksy-rat.jpg?w=397&h=265&l=31&t=19&f=c84a21aebb1e0814f10394e7ad7133bc);
+}
+
+.horizontalculture__article2-image {
+  background-image: url(https://d.newsweek.com/en/full/1559640/harry-meghan.jpg?w=397&h=265&f=103f9b37da3eb28a9d68ad6495211b48);
+}
+
+/*-------------------------------------------- Sports Horizontal section------------------------------------------ */
+.horizontalsports__article-image {
+  background-image: url(https://d.newsweek.com/en/full/1582304/wwe-karrion-killer-kross-merch.jpg?w=397&h=265&l=43&t=35&f=cee94178ac010d0ca7cb7ade02491245);
+}
+
+.horizontalsports__article2-image {
+  background-image: url(https://d.newsweek.com/en/full/1582257/howard-finkel-wwe.jpg?w=397&h=265&f=e922d3b075e87d57b40b1de94d00b46c);
 }
