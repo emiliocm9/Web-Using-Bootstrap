@@ -525,3 +525,18 @@ nav {
   position: relative;
   cursor: pointer;
 }
+
+.third__sponsored-image4 {
+  height: 18rem;
+  margin: 1rem auto 0;
+  background-image: url("https://d.newsweek.com/en/full/1579696/october-university-modern-sciences-arts-msa.jpg?w=500&h=333&f=6fa4d04a539e0822784d6db7f8488ca1");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+/*--------------------------------------------------- IN THE MAGAZINE SECTION ----------------------------------*/
+.magazine__title-c2 {
+  width: 25rem;
+}
