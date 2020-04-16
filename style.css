@@ -468,3 +468,60 @@ nav {
   position: relative;
   cursor: pointer;
 }
+
+.third__signup-container {
+  width: 25rem;
+  background-color: #f4f5f6;
+  margin-top: 2rem;
+}
+
+.third__signup-cn {
+  width: 3rem;
+  height: 3rem;
+  background-color: #f72210;
+}
+
+.third__signup-cn span {
+  font-size: 2.3rem;
+}
+
+.third__signup-ctext {
+  width: 60%;
+  line-height: 1.8rem;
+  font-size: 1.8rem;
+}
+
+.third__signup-button {
+  width: 10rem;
+  height: 3.8rem;
+  background-color: black;
+  cursor: pointer;
+}
+
+.third__signup-button:hover {
+  background-color: green;
+}
+
+.third__signup-button a {
+  font-size: 1.7rem;
+}
+
+.third__sponsored-image2 {
+  height: 18rem;
+  margin: 1rem auto 0;
+  background-image: url("https://d.newsweek.com/en/full/1573632/lally-school-management-rensselaer-polytechnic-institute.png?w=500&h=333&f=88302134e4dea754d576bee4d302280c");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.third__sponsored-image3 {
+  height: 18rem;
+  margin: 1rem auto 0;
+  background-image: url("https://d.newsweek.com/en/full/1579652/newsweek2-gettyimages-955959130.jpg?w=500&h=333&f=766644c7e3e0eac31542ef74e910d9fe");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
