@@ -421,3 +421,12 @@ nav {
   color: #9a9a9a;
 }
 
+/*------------------------------------------------ Third Column Opinion Section ---------------------------------*/
+.third__opinion-ttitle {
+  font-size: 1.6rem;
+  color: black;
+}
+
+.third__opinion-ttitle:hover {
+  color: #f72210;
+}
