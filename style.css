@@ -390,3 +390,34 @@ nav {
   cursor: pointer;
 }
 
+/*----------------------------------- Second column top stories section ---------------------------------------------*/
+.second__story-image {
+  height: 30rem;
+  margin: 1rem auto 0;
+  background-image: url(https://d.newsweek.com/en/full/1581805/world-health-organization-china.jpg?w=591&h=364&f=975638d77467f4e461f7d2d47361f62d);
+  background-position: center;
+  background-size: cover;
+  background-position-y: 0.4rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.second__heores-itext {
+  background-color: #c2d4d7;
+  bottom: 0;
+  padding: 0 0.4rem;
+}
+
+.second__heores-icontainer {
+  width: 100%;
+}
+
+.second__heores-icontainer img {
+  width: 100%;
+}
+
+.second__heroes-t {
+  font-size: 1.6rem;
+  color: #9a9a9a;
+}
+
