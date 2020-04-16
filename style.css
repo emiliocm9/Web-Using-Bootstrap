@@ -712,3 +712,41 @@ nav {
 .horizontalsports__article2-image {
   background-image: url(https://d.newsweek.com/en/full/1582257/howard-finkel-wwe.jpg?w=397&h=265&f=e922d3b075e87d57b40b1de94d00b46c);
 }
+
+/*-------------------------------------------- Suscribe-Newsletter Section ------------------------------------------ */
+.suscribe__container {
+  background-color: #f4f5f6;
+}
+
+.suscribe__container-images2 {
+  left: 8rem;
+  top: 1.4rem;
+}
+
+.suscribe__container-text p {
+  font-size: 1.7rem;
+}
+
+.third__suscribe-button {
+  width: 11rem;
+  height: 3.8rem;
+  background-color: #f72210;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+.third__suscribe-button:hover {
+  filter: brightness(90%);
+}
+
+.newsletter__image {
+  border: #f72210;
+  height: 28.5rem;
+  background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5);
+  background-position: center;
+  background-size: cover;
+}
+
+.newsletter_text p {
+  font-size: 1.6rem;
+}
