@@ -540,3 +540,84 @@ nav {
 .magazine__title-c2 {
   width: 25rem;
 }
+
+.magazine__article-image {
+  height: 33rem;
+  margin: 1rem auto 0;
+  background-image: url(https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg?w=360&h=480&q=90&f=83783f0b5161400b0bc0b3ea3e5912b4);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.magazine__general-image {
+  height: 23rem;
+  margin: 1rem auto 0;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.magazine__article2-image {
+  background-image: url(https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.jpg?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86);
+}
+
+.magazine__article3-image {
+  background-image: url(https://d.newsweek.com/en/full/1576251/donald-trump-coronavirus-approval-rating-poll.jpg?w=466&h=311&l=57&t=58&q=90&f=054d88ca28b1554dea72f1a8e2ad9776);
+}
+
+.magazine__article4-image {
+  background-image: url(https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg?w=466&h=311&l=58&t=45&q=90&f=122e65d21d28590b9e2ddde46d7c12b1);
+}
+
+.magazine__article5-image {
+  background-image: url(https://d.newsweek.com/en/full/1578291/cul-quibi.jpg?w=466&h=311&q=90&f=3d787233940a2cbcf6d6fd4094755ba9);
+}
+
+.magazine__article6-image {
+  background-image: url(https://d.newsweek.com/en/full/1579421/cul-uncharted-nature-02.jpg?w=466&h=311&q=90&f=a65039af98a85d65dd58e4e7c01988d7);
+}
+
+.magazine__article7-image {
+  background-image: url(https://d.newsweek.com/en/full/1580527/parting-shot-uzo-aduba.jpg?w=466&h=311&l=42&t=46&q=90&f=6a64d33d4eb3ba47b218a84e43e68654);
+}
+
+.magazine__article8-image {
+  background-image: url(https://d.newsweek.com/en/full/1579838/floating-comfort.jpg?w=480&h=320&q=90&f=258c9c9847cf6679679c9950f21ca7db);
+}
+
+.magazine__article-text {
+  height: 4rem;
+  width: 100%;
+  background-color: #f4f5f6;
+  cursor: pointer;
+}
+
+.magazine__article-text a {
+  font-size: 1.8rem;
+  padding-top: 0.5rem;
+}
+
+.magazine__article-text a i {
+  padding-bottom: 0.6rem;
+}
+
+.magazine__article-text a h2 {
+  font-size: 1.8rem;
+}
+
+.magazine__article-text:hover {
+  filter: brightness(90%);
+}
+
+.magazine__article2-text {
+  height: 4rem;
+  width: 100%;
+  margin: 0.8rem 0;
+}
+
+.magazine__article2-text span {
+  font-size: 2rem;
+}
