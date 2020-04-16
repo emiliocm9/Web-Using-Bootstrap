@@ -430,3 +430,41 @@ nav {
 .third__opinion-ttitle:hover {
   color: #f72210;
 }
+
+/*----------------------------------------------------- Third Column Debate Section ----------------------------*/
+.third__debate-red {
+  border-top: 3px solid #f72210;
+}
+
+.third__debate-blue {
+  border-top: 3px solid blue;
+}
+
+.third__debate-author {
+  height: 4rem;
+}
+
+.third__debate-aimage {
+  right: 0;
+  width: 7rem;
+}
+
+.third__versus-container {
+  height: 4.5rem;
+}
+
+.third__versus-circle {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+/*----------------------------------------------- Third Column Sponsored Insight Section------------------------------ */
+.third__sponsored-image {
+  height: 18rem;
+  margin: 1rem auto 0;
+  background-image: url("https://d.newsweek.com/en/full/1579322/wheaton-college-massachusetts.jpg?w=500&h=333&f=88f8ca5b2a4cb233d52b78eebba24e7a");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
