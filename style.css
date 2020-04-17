@@ -416,7 +416,7 @@ nav {
   margin: 1rem auto 0;
   background-image: url(https://d.newsweek.com/en/full/1581805/world-health-organization-china.jpg?w=591&h=364&f=975638d77467f4e461f7d2d47361f62d);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-position-y: 0.4rem;
   position: relative;
   cursor: pointer;
