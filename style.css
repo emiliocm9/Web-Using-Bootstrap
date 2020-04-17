@@ -714,9 +714,21 @@ nav {
   background-color: #f4f5f6;
 }
 
+.suscribe__container-images {
+  flex: none;
+}
+
+.suscribe__container-images1 {
+  padding-right: 9rem;
+}
+
 .suscribe__container-images2 {
   left: 8rem;
   top: 1.4rem;
+}
+
+.suscribe__container-text {
+  padding-left: 1rem;
 }
 
 .suscribe__container-text p {
