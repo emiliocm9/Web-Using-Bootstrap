@@ -1,7 +1,7 @@
 #  Project-Web-Using-Bootstrap
 In this project, I got a chance to try out Twitter’s Bootstrap framework by building a site that actually uses it – Newsweek.
 
-![PROJECT:  design made by Emilio Contreras]()
+![PROJECT:  design made by Emilio Contreras](https://github.com/emiliocm9/Web-Using-Bootstrap/blob/features/img/ProjectSS.png)
 
 ## Built With
 
