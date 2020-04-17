@@ -235,8 +235,8 @@ nav {
   }
 }
 
-/* -------------------------------------------------First Container Main------------------------------ */
-/* ------------------------------------Articles Section------------------------ */
+/* First Container Main */
+/* Articles Section */
 .text-red {
   color: #f72210;
 }
@@ -340,7 +340,7 @@ nav {
   cursor: pointer;
 }
 
-/*------------------------------- First grid sponsored articles section -----------------------------------------*/
+/* First grid sponsored articles section */
 .first__sponsored-article {
   width: 92%;
   margin: 0 auto;
@@ -390,7 +390,7 @@ nav {
   cursor: pointer;
 }
 
-/*----------------------------------- Second column top stories section ---------------------------------------------*/
+/* Second column top stories section */
 .second__story-image {
   height: 30rem;
   margin: 1rem auto 0;
@@ -421,7 +421,7 @@ nav {
   color: #9a9a9a;
 }
 
-/*------------------------------------------------ Third Column Opinion Section ---------------------------------*/
+/* Third Column Opinion Section */
 .third__opinion-ttitle {
   font-size: 1.6rem;
   color: black;
@@ -431,7 +431,7 @@ nav {
   color: #f72210;
 }
 
-/*----------------------------------------------------- Third Column Debate Section ----------------------------*/
+/* Third Column Debate Section */
 .third__debate-red {
   border-top: 3px solid #f72210;
 }
@@ -458,7 +458,7 @@ nav {
   height: 4.5rem;
 }
 
-/*----------------------------------------------- Third Column Sponsored Insight Section------------------------------ */
+/* Third Column Sponsored Insight Section */
 .third__sponsored-image {
   height: 18rem;
   margin: 1rem auto 0;
@@ -536,7 +536,7 @@ nav {
   cursor: pointer;
 }
 
-/*--------------------------------------------------- IN THE MAGAZINE SECTION ----------------------------------*/
+/* IN THE MAGAZINE SECTION */
 .magazine__title-c2 {
   width: 25rem;
 }
@@ -622,7 +622,7 @@ nav {
   font-size: 2rem;
 }
 
-/*------------------------------------------------------ Editor Pick section- -----------------------------------*/
+/* Editor Pick section */
 .editors__article-image {
   background-image: url(https://d.newsweek.com/en/full/1582202/coronavirus-test-new-rapid-faster-cdc.jpg?w=397&h=295&l=34&t=27&f=8965a3eb59b9cd6eac2ea4eb59b4a7bb);
 }
@@ -655,7 +655,7 @@ nav {
   background-image: url(https://d.newsweek.com/en/full/1581427/elizabeth-warren-joe-biden-fourth-democratic-debate.jpg?w=397&h=295&f=b45cf2e813eb01c89cf459e237e58bb9);
 }
 
-/*-------------------------------------------- U.S Horizontal section------------------------------------------ */
+/* U.S Horizontal section */
 .horizontal__title a {
   font-size: 2.2rem;
 }
@@ -668,7 +668,7 @@ nav {
   background-image: url(https://d.newsweek.com/en/full/1582182/us-health-virus-briefing.jpg?w=397&h=265&f=349f2d4419c984d6d14ece2cecf6af2c);
 }
 
-/*-------------------------------------------- World Horizontal section------------------------------------------ */
+/* World Horizontal section */
 .horizontalworld__article-image {
   background-image: url(https://d.newsweek.com/en/full/1582276/china-xi-russia-putin-ceremony.jpg?w=397&h=265&f=a68b5d8953d4e8e104e4a0f4bc1e8cdd);
 }
@@ -677,7 +677,7 @@ nav {
   background-image: url(https://d.newsweek.com/en/full/1582294/dominic-raab-lockdown-3-weeks.png?w=397&h=265&f=c86e679138424fd54ae2595fdf505632);
 }
 
-/*-------------------------------------------- Business Horizontal section------------------------------------------ */
+/* Business Horizontal section */
 .horizontalbusiness__article-image {
   background-image: url(https://d.newsweek.com/en/full/1581456/world-economy-recession-prediction-imf.jpg?w=397&h=265&f=253cf2b07f0f94a41461f619dd0768d2);
 }
@@ -686,7 +686,7 @@ nav {
   background-image: url(https://d.newsweek.com/en/full/1581407/kenya-africa-debt-coronavirus-china-beijing.jpg?w=397&h=265&f=3f1a3279a8b38d73464dd52df5cea594);
 }
 
-/*-------------------------------------------- Tech Horizontal section------------------------------------------ */
+/* Tech Horizontal section */
 .horizontaltech__article-image {
   background-image: url(https://d.newsweek.com/en/full/1582193/grey-wolf.jpg?w=397&h=265&f=b3c53e514e7b94bd66ba81a304fe204d);
 }
@@ -695,7 +695,7 @@ nav {
   background-image: url(https://d.newsweek.com/en/full/1582211/facebook-logo.jpg?w=397&h=265&f=7f4b9ad63e091ee60b97aa68739f3b7d);
 }
 
-/*-------------------------------------------- Culture Horizontal section------------------------------------------ */
+/* Culture Horizontal section */
 .horizontalculture__article-image {
   background-image: url(https://d.newsweek.com/en/full/1582321/banksy-rat.jpg?w=397&h=265&l=31&t=19&f=c84a21aebb1e0814f10394e7ad7133bc);
 }
@@ -704,7 +704,7 @@ nav {
   background-image: url(https://d.newsweek.com/en/full/1559640/harry-meghan.jpg?w=397&h=265&f=103f9b37da3eb28a9d68ad6495211b48);
 }
 
-/*-------------------------------------------- Sports Horizontal section------------------------------------------ */
+/* Sports Horizontal section */
 .horizontalsports__article-image {
   background-image: url(https://d.newsweek.com/en/full/1582304/wwe-karrion-killer-kross-merch.jpg?w=397&h=265&l=43&t=35&f=cee94178ac010d0ca7cb7ade02491245);
 }
@@ -713,7 +713,7 @@ nav {
   background-image: url(https://d.newsweek.com/en/full/1582257/howard-finkel-wwe.jpg?w=397&h=265&f=e922d3b075e87d57b40b1de94d00b46c);
 }
 
-/*-------------------------------------------- Suscribe-Newsletter Section ------------------------------------------ */
+/* Suscribe-Newsletter Section */
 .suscribe__container {
   background-color: #f4f5f6;
 }
@@ -751,7 +751,7 @@ nav {
   font-size: 1.6rem;
 }
 
-/*-------------------------------------------- Footer Section ------------------------------------------ */
+/* Footer Section  */
 .footer__first-social {
   width: 15rem;
   font-size: 2.5rem;
