@@ -46,7 +46,7 @@ nav {
 
 .nav__second-menu i {
   font-size: 2.8rem;
-  color: #fB9a94;
+  color: #fb9a94;
 }
 
 .nav__container-weather {
@@ -60,9 +60,21 @@ nav {
   font-size: 1.4rem;
 }
 
+.magazine__article-text a i {
+  padding-bottom: 0.6rem;
+}
+
 .nav__container-weather a span i {
   margin-left: 0.4rem;
   font-size: 1.4rem;
+}
+
+.third__signup-cn span {
+  font-size: 2.3rem;
+}
+
+.magazine__article2-text span {
+  font-size: 2rem;
 }
 
 .nav__container-weather a span {
@@ -120,6 +132,9 @@ nav {
 
   .nav__second {
     width: 20%;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+    height: 100%;
   }
 
   nav {
@@ -146,7 +161,6 @@ nav {
     margin-left: 0.4rem;
   }
 
-  
   .nav__search i {
     font-size: 2rem;
   }
@@ -169,12 +183,6 @@ nav {
 
   .nav__container-first {
     width: 80%;
-  }
-
-  .nav__second {
-    align-items: flex-end;
-    padding-bottom: 2rem;
-    height: 100%;
   }
 
   .nav__list {
@@ -289,6 +297,19 @@ nav {
 .article1__title {
   font-size: 2.3rem;
   margin-top: 1rem;
+}
+
+.third__signup-button a {
+  font-size: 1.7rem;
+}
+
+.magazine__article-text a {
+  font-size: 1.8rem;
+  padding-top: 0.5rem;
+}
+
+.horizontal__title a {
+  font-size: 2.2rem;
 }
 
 .article1__title a:hover {
@@ -480,10 +501,6 @@ nav {
   background-color: #f72210;
 }
 
-.third__signup-cn span {
-  font-size: 2.3rem;
-}
-
 .third__signup-ctext {
   width: 60%;
   line-height: 1.8rem;
@@ -499,10 +516,6 @@ nav {
 
 .third__signup-button:hover {
   background-color: green;
-}
-
-.third__signup-button a {
-  font-size: 1.7rem;
 }
 
 .third__sponsored-image2 {
@@ -594,15 +607,6 @@ nav {
   cursor: pointer;
 }
 
-.magazine__article-text a {
-  font-size: 1.8rem;
-  padding-top: 0.5rem;
-}
-
-.magazine__article-text a i {
-  padding-bottom: 0.6rem;
-}
-
 .magazine__article-text a h2 {
   font-size: 1.8rem;
 }
@@ -615,10 +619,6 @@ nav {
   height: 4rem;
   width: 100%;
   margin: 0.8rem 0;
-}
-
-.magazine__article2-text span {
-  font-size: 2rem;
 }
 
 /* Editor Pick section */
@@ -655,10 +655,6 @@ nav {
 }
 
 /* U.S Horizontal section */
-.horizontal__title a {
-  font-size: 2.2rem;
-}
-
 .horizontalus__article-image {
   background-image: url(https://d.newsweek.com/en/full/1582251/dr-anthony-fauci-coronavirus-briefing-april-5.jpg?w=397&h=265&f=de393c53c6f2a86bb03e4bb7edb4a5d3);
 }
