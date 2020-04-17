@@ -760,3 +760,14 @@ nav {
 .footer__first-image img {
   width: 30rem;
 }
+
+.footer__list-container {
+  list-style: none;
+  margin: auto 0;
+  flex-wrap: wrap;
+}
+
+.footer__list-items {
+  list-style: none;
+  width: 50rem;
+}
