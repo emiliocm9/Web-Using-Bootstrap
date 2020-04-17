@@ -8,11 +8,11 @@
 
 html {
   font-size: 62.5%;
-  min-width: 31.8rem;
+  min-width: 22rem;
 }
 
 body {
-  min-width: 31.8rem;
+  min-width: 22rem;
   font-size: 1.4rem;
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -490,7 +490,8 @@ nav {
 }
 
 .third__signup-container {
-  width: 25rem;
+  flex-wrap: wrap;
+  width: 23rem;
   background-color: #f4f5f6;
   margin-top: 2rem;
 }
