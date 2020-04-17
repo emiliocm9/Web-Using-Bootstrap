@@ -20,7 +20,7 @@ body {
 /* Navigation Bar Section */
 nav {
   height: 5rem;
-  background-color: #F72210;
+  background-color: #f72210;
 }
 
 .nav__second-sign {
@@ -46,7 +46,7 @@ nav {
 
 .nav__second-menu i {
   font-size: 2.8rem;
-  color: #FB9A94;
+  color: #fB9a94;
 }
 
 .nav__container-weather {
@@ -83,13 +83,12 @@ nav {
   .nav__container-weather a span,
   .nav__container-weather a span i {
     display: none;
-  } 
+  }
 
   .nav__container-weather {
     width: 0.1rem;
   }
 }
-
 
 @media screen and (max-width: 480px) {
   .nav__second-sign,
@@ -147,6 +146,11 @@ nav {
     margin-left: 0.4rem;
   }
 
+  
+  .nav__search i {
+    font-size: 2rem;
+  }
+
   .nav__container-weather a span i {
     font-size: 1.2rem;
   }
@@ -174,7 +178,7 @@ nav {
   }
 
   .nav__list {
-    border-bottom: 2px solid #F4F5F6;
+    border-bottom: 2px solid #f4f5f6;
     padding: 1.2rem 0;
     position: relative;
     top: -1.2rem;
@@ -194,7 +198,7 @@ nav {
     font-size: 1.8rem;
     margin: 0 auto;
     padding: 0 1rem 0 0;
-    border-right: 2px solid #F4F5F6;
+    border-right: 2px solid #f4f5f6;
   }
 
   .nav-item a:hover {
@@ -207,7 +211,7 @@ nav {
 
   .nav__search-label {
     display: none;
-    border:none; 
+    border: none;
   }
 
   .nav__search-input {
@@ -218,10 +222,6 @@ nav {
   .nav__search-input::placeholder {
     color: black;
     font-size: 1.9rem;
-  }
-
-  .nav__search i {
-    font-size: 2rem;
   }
 }
 
@@ -235,7 +235,6 @@ nav {
   }
 }
 
-/* First Container Main */
 /* Articles Section */
 .text-red {
   color: #f72210;
