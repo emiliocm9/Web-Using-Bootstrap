@@ -1,0 +1,781 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  min-width: 22rem;
+}
+
+body {
+  min-width: 22rem;
+  font-size: 1.4rem;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Navigation Bar Section */
+nav {
+  height: 5rem;
+  background-color: #f72210;
+}
+
+.nav__second-sign {
+  font-size: 1.8rem;
+}
+
+.nav__second {
+  width: 27.6rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav__second-btn {
+  width: 12.5rem;
+  height: 2.6rem;
+  font-size: 1.8rem;
+}
+
+.nav__second-menu {
+  width: 6.8rem;
+  height: 100%;
+}
+
+.nav__second-menu i {
+  font-size: 2.8rem;
+  color: #fb9a94;
+}
+
+.nav__container-weather {
+  width: 17rem;
+  height: 3.5rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav__container-weather i {
+  font-size: 1.4rem;
+}
+
+.magazine__article-text a i {
+  padding-bottom: 0.6rem;
+}
+
+.nav__container-weather a span i {
+  margin-left: 0.4rem;
+  font-size: 1.4rem;
+}
+
+.third__signup-cn span {
+  font-size: 2.3rem;
+}
+
+.magazine__article2-text span {
+  font-size: 2rem;
+}
+
+.nav__container-weather a span {
+  font-size: 1.5rem;
+}
+
+.nav__list {
+  display: flex;
+}
+
+@media screen and (max-width: 575px) {
+  .nav__container-weather i {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .nav__container-weather a span,
+  .nav__container-weather a span i {
+    display: none;
+  }
+
+  .nav__container-weather {
+    width: 0.1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav__second-sign,
+  .nav__second-btn {
+    font-size: 1.4rem;
+  }
+
+  .nav__second {
+    width: 20rem;
+  }
+
+  .nav__second-btn {
+    width: 7rem;
+  }
+
+  .nav__second-btn i {
+    display: none;
+  }
+
+  .nav__second-menu {
+    width: 5rem;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .nav__second-menu {
+    display: none;
+  }
+
+  .nav__second {
+    width: 20%;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+    height: 100%;
+  }
+
+  nav {
+    height: 10.7rem;
+    overflow: hidden;
+  }
+
+  .nav__container-logo {
+    order: 2;
+    width: 75%;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .nav__container-weather {
+    width: 25%;
+    align-items: flex-start;
+    padding-left: 3rem;
+    flex-direction: column;
+  }
+
+  .nav__container-weather a span {
+    font-size: 1.3rem;
+    margin-left: 0.4rem;
+  }
+
+  .nav__search i {
+    font-size: 2rem;
+  }
+
+  .nav__container-weather a span i {
+    font-size: 1.2rem;
+  }
+
+  .nav__container-date {
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  .nav__container-logo svg {
+    margin: 0 auto;
+    width: 61%;
+    height: 40%;
+    padding: 0;
+  }
+
+  .nav__container-first {
+    width: 80%;
+  }
+
+  .nav__list {
+    border-bottom: 2px solid #f4f5f6;
+    padding: 1.2rem 0;
+    position: relative;
+    top: -1.2rem;
+    background-color: white;
+    clip-path: polygon(93% 0, 94% 20%, 100% 20%, 100% 100%, 0 100%, 0 61%, 0 0);
+  }
+
+  .nav {
+    width: 87%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 2.5rem;
+  }
+
+  .nav-item a {
+    color: black;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    padding: 0 1rem 0 0;
+    border-right: 2px solid #f4f5f6;
+  }
+
+  .nav-item a:hover {
+    color: red;
+  }
+
+  .nav__search {
+    margin-right: 1rem;
+  }
+
+  .nav__search-label {
+    display: none;
+    border: none;
+  }
+
+  .nav__search-input {
+    width: 42%;
+    border: 0;
+  }
+
+  .nav__search-input::placeholder {
+    color: black;
+    font-size: 1.9rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .nav__container-date {
+    display: none;
+  }
+
+  .nav__list {
+    display: none;
+  }
+}
+
+/* Articles Section */
+.text-red {
+  color: #f72210;
+}
+
+.decoration-none {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.decoration-none:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #f72210;
+}
+
+.first__column {
+  padding-left: 3rem;
+}
+
+.first__column-title {
+  font-size: 1.7rem;
+  color: #9a9a9a;
+  margin: 0.6rem 0 0 0;
+}
+
+.first__article1-image {
+  height: 23rem;
+  margin: 1rem auto 0;
+  background-image: url(https://d.newsweek.com/en/full/1581427/elizabeth-warren-joe-biden-fourth-democratic-debate.jpg?w=397&h=265&q=90&f=fe6aad2e8549d2fcb1f6a45b726460a8);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.article1__image-title {
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.8);
+  bottom: 0;
+  width: auto;
+  height: 3.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.article1__image-title a {
+  font-size: 1.7rem;
+}
+
+.article1__title {
+  font-size: 2.3rem;
+  margin-top: 1rem;
+}
+
+.third__signup-button a {
+  font-size: 1.7rem;
+}
+
+.magazine__article-text a {
+  font-size: 1.8rem;
+  padding-top: 0.5rem;
+}
+
+.horizontal__title a {
+  font-size: 2.2rem;
+}
+
+.article1__title a:hover {
+  text-decoration-color: #f72210;
+}
+
+.article1__text {
+  font-size: 1.5rem;
+}
+
+.first__article2-image {
+  height: 23rem;
+  margin: 1rem auto 0;
+  background-image: url(https://d.newsweek.com/en/full/1581766/hydroxychloroquine.jpg?w=397&h=265&q=90&f=bb03b3ee6e1445d404534f4dcd27a306);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.first__article3-image {
+  height: 23rem;
+  margin: 1rem auto 0;
+  background-image: url(https://d.newsweek.com/en/full/1581639/alexandria-ocasio-cortez.jpg?w=397&h=265&q=90&f=4ff751ea80da074648e09fd3128ada35);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.first__article4-image {
+  height: 23rem;
+  margin: 1rem auto 0;
+  background-image: url(https://d.newsweek.com/en/full/1581785/prime-minister-mette-frederiksen.jpg?w=397&h=265&q=90&f=12e07b5efd6bc157dc2bbd1cd5758609);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.first__article5-image {
+  height: 23rem;
+  margin: 1rem auto 0;
+  background-image: url(https://d.newsweek.com/en/full/1581778/boston-red-sox-fenway-park.jpg?w=397&h=265&q=90&f=c04977d2a7370e59f824d72a73394f48);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+/* First grid sponsored articles section */
+.first__sponsored-article {
+  width: 92%;
+  margin: 0 auto;
+}
+
+.first__sponsored-image {
+  height: 18rem;
+  margin: 1rem auto 0;
+  background-image: url("https://d.newsweek.com/en/full/1575945/cybersecurity-vantage-hp-sponsor.jpg?w=500&h=333&f=ac517642217c0d9cec695be60008ce2a");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.first__sponsored-tcontainer {
+  padding: 1rem;
+  border: 1px solid #e6e6e6;
+}
+
+.first__sponsored-title {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.first__sponsored-title a:hover {
+  text-decoration-color: #f72210;
+}
+
+.first__sponsored-image2 {
+  height: 18rem;
+  margin: 1rem auto 0;
+  background-image: url("https://d.newsweek.com/en/full/1572014/worlds-best-hospitals-2020.png?w=500&h=333&f=c871e2709e79f9ba030be976797f7aa2");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.first__sponsored-image3 {
+  height: 18rem;
+  margin: 1rem auto 0;
+  background-image: url("https://d.newsweek.com/en/full/1567280/all-points-north-lodge.jpg?w=500&h=333&f=317680b645c813e7054428bff80f9d38");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+/* Second column top stories section */
+.second__story-image {
+  height: 30rem;
+  margin: 1rem auto 0;
+  background-image: url(https://d.newsweek.com/en/full/1581805/world-health-organization-china.jpg?w=591&h=364&f=975638d77467f4e461f7d2d47361f62d);
+  background-position: center;
+  background-size: cover;
+  background-position-y: 0.4rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.second__heores-itext {
+  background-color: #c2d4d7;
+  bottom: 0;
+  padding: 0 0.4rem;
+}
+
+.second__heores-icontainer {
+  width: 100%;
+}
+
+.second__heores-icontainer img {
+  width: 100%;
+}
+
+.second__heroes-t {
+  font-size: 1.6rem;
+  color: #9a9a9a;
+}
+
+/* Third Column Opinion Section */
+.third__opinion-ttitle {
+  font-size: 1.6rem;
+  color: black;
+}
+
+.third__opinion-ttitle:hover {
+  color: #f72210;
+}
+
+/* Third Column Debate Section */
+.third__debate-red {
+  border-top: 3px solid #f72210;
+}
+
+.third__debate-blue {
+  border-top: 3px solid blue;
+}
+
+.third__debate-author {
+  height: 4rem;
+}
+
+.third__debate-aimage {
+  right: 0;
+  width: 7rem;
+}
+
+.third__versus-container {
+  height: 4.5rem;
+}
+
+.third__versus-circle {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+/* Third Column Sponsored Insight Section */
+.third__sponsored-image {
+  height: 17rem;
+  margin: 1rem auto 0;
+  background-image: url("https://d.newsweek.com/en/full/1579322/wheaton-college-massachusetts.jpg?w=500&h=333&f=88f8ca5b2a4cb233d52b78eebba24e7a");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.third__signup-container {
+  flex-wrap: wrap;
+  width: 23rem;
+  background-color: #f4f5f6;
+  margin-top: 2rem;
+}
+
+.third__signup-cn {
+  width: 3rem;
+  height: 3rem;
+  background-color: #f72210;
+}
+
+.third__signup-ctext {
+  width: 60%;
+  line-height: 1.8rem;
+  font-size: 1.8rem;
+}
+
+.third__signup-button {
+  width: 10rem;
+  height: 3.8rem;
+  background-color: black;
+  cursor: pointer;
+}
+
+.third__signup-button:hover {
+  background-color: green;
+}
+
+.third__sponsored-image2 {
+  height: 18rem;
+  margin: 1rem auto 0;
+  background-image: url("https://d.newsweek.com/en/full/1573632/lally-school-management-rensselaer-polytechnic-institute.png?w=500&h=333&f=88302134e4dea754d576bee4d302280c");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.third__sponsored-image3 {
+  height: 18rem;
+  margin: 1rem auto 0;
+  background-image: url("https://d.newsweek.com/en/full/1579652/newsweek2-gettyimages-955959130.jpg?w=500&h=333&f=766644c7e3e0eac31542ef74e910d9fe");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.third__sponsored-image4 {
+  height: 18rem;
+  margin: 1rem auto 0;
+  background-image: url("https://d.newsweek.com/en/full/1579696/october-university-modern-sciences-arts-msa.jpg?w=500&h=333&f=6fa4d04a539e0822784d6db7f8488ca1");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+/* IN THE MAGAZINE SECTION */
+.magazine__title-c2 {
+  width: 25rem;
+}
+
+.magazine__article-image {
+  height: 33rem;
+  margin: 1rem auto 0;
+  background-image: url(https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg?w=360&h=480&q=90&f=83783f0b5161400b0bc0b3ea3e5912b4);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.magazine__general-image {
+  height: 25rem;
+  margin: 1rem auto 0;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.magazine__article2-image {
+  background-image: url(https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.jpg?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86);
+}
+
+.magazine__article3-image {
+  background-image: url(https://d.newsweek.com/en/full/1576251/donald-trump-coronavirus-approval-rating-poll.jpg?w=466&h=311&l=57&t=58&q=90&f=054d88ca28b1554dea72f1a8e2ad9776);
+}
+
+.magazine__article4-image {
+  background-image: url(https://d.newsweek.com/en/full/1579893/btn-sports-banner-basketball.jpg?w=466&h=311&l=58&t=45&q=90&f=122e65d21d28590b9e2ddde46d7c12b1);
+}
+
+.magazine__article5-image {
+  background-image: url(https://d.newsweek.com/en/full/1578291/cul-quibi.jpg?w=466&h=311&q=90&f=3d787233940a2cbcf6d6fd4094755ba9);
+}
+
+.magazine__article6-image {
+  background-image: url(https://d.newsweek.com/en/full/1579421/cul-uncharted-nature-02.jpg?w=466&h=311&q=90&f=a65039af98a85d65dd58e4e7c01988d7);
+}
+
+.magazine__article7-image {
+  background-image: url(https://d.newsweek.com/en/full/1580527/parting-shot-uzo-aduba.jpg?w=466&h=311&l=42&t=46&q=90&f=6a64d33d4eb3ba47b218a84e43e68654);
+}
+
+.magazine__article8-image {
+  background-image: url(https://d.newsweek.com/en/full/1579838/floating-comfort.jpg?w=480&h=320&q=90&f=258c9c9847cf6679679c9950f21ca7db);
+}
+
+.magazine__article-text {
+  height: 4rem;
+  width: 100%;
+  background-color: #f4f5f6;
+  cursor: pointer;
+}
+
+.magazine__article-text a h2 {
+  font-size: 1.8rem;
+}
+
+.magazine__article-text:hover {
+  filter: brightness(90%);
+}
+
+.magazine__article2-text {
+  height: 4rem;
+  width: 100%;
+  margin: 0.8rem 0;
+}
+
+/* Editor Pick section */
+.editors__article-image {
+  background-image: url(https://d.newsweek.com/en/full/1582202/coronavirus-test-new-rapid-faster-cdc.jpg?w=397&h=295&l=34&t=27&f=8965a3eb59b9cd6eac2ea4eb59b4a7bb);
+}
+
+.editors__article2-image {
+  background-image: url(https://d.newsweek.com/en/full/1582046/pills.jpg?w=397&h=295&f=6f2a7a7c5dcce2d9d7ec1960e1427ee4);
+}
+
+.editors__article3-image {
+  background-image: url(https://d.newsweek.com/en/full/1582094/nurse-mary-agyeiwaa-agyapong-died-coronavirus.jpg?w=397&h=295&f=50f65c8409211dc6528601889794c29e);
+}
+
+.editors__article4-image {
+  background-image: url(https://d.newsweek.com/en/full/1582162/customer-buys-alcohol.jpg?w=397&h=295&f=3f7146c0f2658e1857572069124eb00d);
+}
+
+.editors__article5-image {
+  background-image: url(https://d.newsweek.com/en/full/1582103/person-using-smartphone-stock.jpg?w=397&h=295&f=11ce9b7475ffbccf290a2841a625b2ae);
+}
+
+.editors__article6-image {
+  background-image: url(https://d.newsweek.com/en/full/1582059/covid-19-coronavirus-getty-chennai.jpg?w=397&h=295&f=db9d2d286a592bf41cd0d7857d04d4ea);
+}
+
+.editors__article7-image {
+  background-image: url(https://d.newsweek.com/en/full/1557019/prince-harry-meghan-markle-archie-sussex-royal.jpg?w=397&h=295&f=8da42b42202698318761189f3cafc2ec);
+}
+
+.editors__article8-image {
+  background-image: url(https://d.newsweek.com/en/full/1581427/elizabeth-warren-joe-biden-fourth-democratic-debate.jpg?w=397&h=295&f=b45cf2e813eb01c89cf459e237e58bb9);
+}
+
+/* U.S Horizontal section */
+.horizontalus__article-image {
+  background-image: url(https://d.newsweek.com/en/full/1582251/dr-anthony-fauci-coronavirus-briefing-april-5.jpg?w=397&h=265&f=de393c53c6f2a86bb03e4bb7edb4a5d3);
+}
+
+.horizontalus__article2-image {
+  background-image: url(https://d.newsweek.com/en/full/1582182/us-health-virus-briefing.jpg?w=397&h=265&f=349f2d4419c984d6d14ece2cecf6af2c);
+}
+
+/* World Horizontal section */
+.horizontalworld__article-image {
+  background-image: url(https://d.newsweek.com/en/full/1582276/china-xi-russia-putin-ceremony.jpg?w=397&h=265&f=a68b5d8953d4e8e104e4a0f4bc1e8cdd);
+}
+
+.horizontalworld__article2-image {
+  background-image: url(https://d.newsweek.com/en/full/1582294/dominic-raab-lockdown-3-weeks.png?w=397&h=265&f=c86e679138424fd54ae2595fdf505632);
+}
+
+/* Business Horizontal section */
+.horizontalbusiness__article-image {
+  background-image: url(https://d.newsweek.com/en/full/1581456/world-economy-recession-prediction-imf.jpg?w=397&h=265&f=253cf2b07f0f94a41461f619dd0768d2);
+}
+
+.horizontalbusiness__article2-image {
+  background-image: url(https://d.newsweek.com/en/full/1581407/kenya-africa-debt-coronavirus-china-beijing.jpg?w=397&h=265&f=3f1a3279a8b38d73464dd52df5cea594);
+}
+
+/* Tech Horizontal section */
+.horizontaltech__article-image {
+  background-image: url(https://d.newsweek.com/en/full/1582193/grey-wolf.jpg?w=397&h=265&f=b3c53e514e7b94bd66ba81a304fe204d);
+}
+
+.horizontaltech__article2-image {
+  background-image: url(https://d.newsweek.com/en/full/1582211/facebook-logo.jpg?w=397&h=265&f=7f4b9ad63e091ee60b97aa68739f3b7d);
+}
+
+/* Culture Horizontal section */
+.horizontalculture__article-image {
+  background-image: url(https://d.newsweek.com/en/full/1582321/banksy-rat.jpg?w=397&h=265&l=31&t=19&f=c84a21aebb1e0814f10394e7ad7133bc);
+}
+
+.horizontalculture__article2-image {
+  background-image: url(https://d.newsweek.com/en/full/1559640/harry-meghan.jpg?w=397&h=265&f=103f9b37da3eb28a9d68ad6495211b48);
+}
+
+/* Sports Horizontal section */
+.horizontalsports__article-image {
+  background-image: url(https://d.newsweek.com/en/full/1582304/wwe-karrion-killer-kross-merch.jpg?w=397&h=265&l=43&t=35&f=cee94178ac010d0ca7cb7ade02491245);
+}
+
+.horizontalsports__article2-image {
+  background-image: url(https://d.newsweek.com/en/full/1582257/howard-finkel-wwe.jpg?w=397&h=265&f=e922d3b075e87d57b40b1de94d00b46c);
+}
+
+/* Suscribe-Newsletter Section */
+.suscribe__container {
+  background-color: #f4f5f6;
+}
+
+.suscribe__container-images {
+  flex: none;
+}
+
+.suscribe__container-images1 {
+  padding-right: 9rem;
+}
+
+.suscribe__container-images2 {
+  left: 8rem;
+  top: 1.4rem;
+}
+
+.suscribe__container-text {
+  padding-left: 1rem;
+}
+
+.suscribe__container-text p {
+  font-size: 1.7rem;
+}
+
+.third__suscribe-button {
+  width: 11rem;
+  height: 3.8rem;
+  background-color: #f72210;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+.third__suscribe-button:hover {
+  filter: brightness(90%);
+}
+
+.newsletter__image {
+  border: #f72210;
+  height: 28.5rem;
+  background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5);
+  background-position: center;
+  background-size: cover;
+}
+
+.newsletter_text p {
+  font-size: 1.6rem;
+}
+
+/* Footer Section  */
+.footer__first-social {
+  width: 15rem;
+  font-size: 2.5rem;
+}
+
+.footer__first-image img {
+  width: 30rem;
+}
+
+.footer__list-container {
+  list-style: none;
+  margin: auto 0;
+  flex-wrap: wrap;
+}
+
+.footer__list-items {
+  list-style: none;
+  width: 50rem;
+}
